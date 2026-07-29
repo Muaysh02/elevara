@@ -216,3 +216,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================
+# Project-specific additions
+# ==========================
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment variants
+.env.*
+!.env.example
+
+# Local databases
+*.sqlite3
+*.db
+
+# Node.js (frontend)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
